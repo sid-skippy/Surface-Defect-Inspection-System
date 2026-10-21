@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['inclusion', 'rolled-in_scale', 'scratches', 'pitted_surface', 'crazing', 'patches']
+
+roboflow:
+  workspace: zhuyichen-fyp
+  project: steel-defect-detection-ovmzh
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/zhuyichen-fyp/steel-defect-detection-ovmzh/dataset/4

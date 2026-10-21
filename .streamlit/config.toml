@@ -1,0 +1,14 @@
+[theme]
+primaryColor = "#C67C4E"
+backgroundColor = "#FAF7F2"
+secondaryBackgroundColor = "#F3EDE4"
+textColor = "#2B1E16"
+font = "sans serif"
+
+[server]
+headless = true
+fileWatcherType = "none"
+
+[client]
+toolbarMode = "minimal"
+showErrorDetails = false

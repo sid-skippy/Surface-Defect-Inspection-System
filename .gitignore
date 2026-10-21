@@ -1,0 +1,57 @@
+# ── Python ──────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Virtual Environments ─────────────────────────────────
+venv/
+.venv/
+env/
+
+# ── Full Dataset Folders (images + labels — not needed for deployment) ───
+train/
+test/
+valid/
+
+# ── Large Model Weights ───────────────────────────────────
+# Base YOLOv8 pretrain weights (downloadable from ultralytics)
+yolov8n.pt
+yolov8s.pt
+yolov8m.pt
+yolov8l.pt
+yolov8x.pt
+
+# TensorRT engine files
+*.engine
+*.trt
+
+# ── Training Runs (keep results but skip .pt checkpoints) ─
+runs/**/weights/last.pt
+runs/**/train_batch*.jpg
+
+# ── Temp / Scratch ────────────────────────────────────────
+scratch/
+_zip/
+bkp/
+*.zip
+*.tar.gz
+
+# ── Reports / Output (generated at runtime) ──────────────
+inspection_reports/
+input_images/
+
+# ── OS & IDE ─────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# ── Streamlit cache ───────────────────────────────────────
+.streamlit/secrets.toml
