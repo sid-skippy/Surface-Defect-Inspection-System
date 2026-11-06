@@ -94,8 +94,6 @@ Evaluation on the benchmark **NEU Surface Defect Database** against classical an
 | **Proposed YOLOv8s (PyTorch)** | Anchor-Free CNN | 11.1 M | 28.6 | 74.2% | 54.0 ms | 18.5 FPS | Moderate edge latency |
 | **Proposed YOLOv8s (TensorRT FP16)** | **Compiled Engine** | **11.1 M** | **28.6** | **74.2%** | **12.0 ms** | **83.3 FPS** | **Optimal Real-Time Edge Solution** |
 
-*Detailed comparative analysis is available in [docs/MODEL_COMPARISON_ANALYSIS.md](docs/MODEL_COMPARISON_ANALYSIS.md).*
-
 ---
 
 ## Defect Classes
@@ -203,12 +201,6 @@ Key training parameters configured in `train_yolov8.py`:
 Surface-Defect-Inspection-System/
 ├── .streamlit/
 │   └── config.toml               # Streamlit theme & layout parameters
-├── docs/                         # Technical reports & documentation
-│   ├── Final_Project_Submission_Report.pdf
-│   ├── FINAL_PROJECT_SUBMISSION_REPORT.md
-│   ├── Model_Comparison_Report.pdf
-│   ├── MODEL_COMPARISON_ANALYSIS.md
-│   └── screenshots/              # Application UI & detection screenshots
 ├── runs/detect/
 │   └── surface_defect_s_run/     # Certified YOLOv8s training run
 │       ├── weights/
@@ -220,19 +212,11 @@ Surface-Defect-Inspection-System/
 ├── .gitignore                    # Git ignore rules
 ├── app.py                        # Streamlit web application & inspection engine
 ├── data.yaml                     # NEU-DET dataset configuration
+├── LICENSE                       # MIT License
 ├── README.md                     # Project documentation
 ├── requirements.txt              # Production Python package requirements
 └── train_yolov8.py               # Fine-tuning & training script
 ```
-
----
-
-## Documentation & Reports
-
-Complete academic reports and comprehensive performance benchmarks are archived in the [`docs/`](docs/) directory:
-- [Final Project Submission Report (PDF)](docs/Final_Project_Submission_Report.pdf)
-- [Final Project Submission Report (Markdown)](docs/FINAL_PROJECT_SUBMISSION_REPORT.md)
-- [Model Comparison & Benchmark Analysis](docs/MODEL_COMPARISON_ANALYSIS.md)
 
 ---
 
