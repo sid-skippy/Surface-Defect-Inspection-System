@@ -1,0 +1,11 @@
+# Core Machine Learning & Vision
+ultralytics>=8.3.0
+torch>=2.4.0
+torchvision>=0.19.0
+opencv-python>=4.10.0
+
+# Web Dashboard & Telemetry
+streamlit>=1.40.0
+pandas>=2.2.0
+numpy>=1.26.0
+packaging>=24.0

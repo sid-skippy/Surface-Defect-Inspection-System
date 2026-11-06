@@ -1,1 +1,0 @@
-python crack_detection_image_sim_v2.py --model runs/detect/surface_defect_run/weights/best.pt
